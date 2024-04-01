@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "copyright": "^0.0.5",
     "playwright": "^1.42.1"
   }
 }
