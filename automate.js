@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const path = require('path');
 
 (async () => {
-  const imagePath = path.join(__dirname, 'public/images/sample-pass-image-2.jpeg');
+  const imagePath = path.join(__dirname, 'public/images/sample-uk-pass.png');
   
   const browser = await chromium.launch({ headless: false }); 
   const page = await browser.newPage();
